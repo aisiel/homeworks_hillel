@@ -6,7 +6,7 @@ div > p {
   color: red;
 }
 p + p {
-  color: blue;
+  color: rgb(159, 159, 219);
 }
 a {
   color: green;
