@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <p class="primary">
+        Застосовується до тегів <b>p</b>, вкладених у <b>div</b>, специфічність
+        002
+      </p>
+      <p>
+        Застосовується до тегів <b>p</b>, які є наступними після тегу <b>p</b>,
+        специфічність 002
+      </p>
+      <a href="#">Застосовується до всіх тегів <b>a</b>, специфічність 001</a>
+      <p class="special">
+        Застосовується до елементів з класом <b>special</b>, специфічність 010
+      </p>
+      <p id="unique">
+        Застосовується до елементів з id <b>unique, специфічність 100</b>
+      </p>
+      <p class="text">
+        Застосовується до елементів з класом <b>text</b>, які знаходяться на
+        одному рівні з елементами з класом <b>primary</b>, специфічність 020
+      </p>
+
+      <button disabled>Для елементів з атрибутом <b>disabled</b>, 001</button>
+      <p id="card" class="description special"></p>
+      <ul class="list special">
+        <li>
+          <p>
+            Застосується для усіх елементів p, у яких предок має два класи:
+            <b>list</b> і <b>special, специфічність 021</b>
+          </p>
+        </li>
+        <li>
+          <p id="pale" class="text">
+            Застосується до елементів з id <b>pale</b> і класом <b>text</b>,
+            предок яких має клас <b>list</b>, специфічність 120
+          </p>
+        </li>
+        <li id="last">
+          <p>
+            Застосується до елементу <b>p</b>, безпосередній предок якого має id
+            <b>last, специфічність 101</b>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

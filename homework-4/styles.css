@@ -1,0 +1,41 @@
+body {
+  background-color: antiquewhite;
+  font-size: 40px;
+}
+div > p {
+  color: red;
+}
+p + p {
+  color: blue;
+}
+a {
+  color: green;
+}
+.special {
+  color: orange;
+}
+#unique {
+  color: purple;
+}
+
+.primary ~ .text {
+  color: brown;
+}
+button {
+  font-size: 30px;
+}
+button:disabled {
+  background-color: aquamarine;
+}
+li{
+    list-style-type: none;
+}
+.list.special p {
+  color: rgb(246, 14, 219);
+}
+.list #pale.text {
+  color: rgb(101, 89, 105);
+}
+#last > p {
+  color: lightcoral;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color:#514b4b
+}
+.navigation {
+  background-color: #a49191;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+.nav-link {
+  color: #ffffff;
+  margin-right: 15px;
+}
+.main-title {
+  color: #a49191;
+}
+.hero {
+  padding: 50px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+li{
+    padding: 5px;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+}
