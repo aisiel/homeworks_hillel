@@ -1,0 +1,39 @@
+.box{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(223, 161, 161);
+    margin: 20px;
+    border: 3px solid rgb(206, 90, 90);
+}
+i{
+    font-style: italic;
+}
+.image{
+    float: left;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(206, 90, 90);
+    overflow: auto;
+}
+.wrapper{
+    position: relative;
+}
+h2{
+    position: sticky;
+    background-color: rgb(223, 161, 161);
+    top: 0;
+
+}
+h1{
+    position: fixed;
+    top: 0;
+    background-color: rgb(223, 161, 161);
+
+}
+.paragraph{
+    margin-top: 100px;
+}
