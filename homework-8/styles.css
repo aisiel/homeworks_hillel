@@ -1,0 +1,117 @@
+.container1,
+.container2,
+.container3 {
+  width: 800px;
+  height: 150px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.box1 {
+  background-color: rgb(223, 161, 161);
+  float: left;
+}
+.box2 {
+  background-color: #ccc;
+  float: right;
+}
+.box3 {
+  background-color: rgb(206, 90, 90);
+  float: left;
+}
+.box4 {
+  background-color: rgb(223, 161, 161);
+  float: right;
+}
+.box5 {
+  background-color: #ccc;
+  float: right;
+}
+.box6 {
+  background-color: rgb(192, 37, 37);
+  float: right;
+}
+.box7 {
+  background-color: rgb(223, 161, 161);
+  float: left;
+}
+.box8 {
+  background-color: rgb(206, 90, 90);
+  float: left;
+}
+.box9 {
+  background-color: #ccc;
+  float: right;
+}
+.box10 {
+  background-color: rgb(192, 37, 37);
+  float: right;
+}
+.container4,
+.container5 {
+  width: 800px;
+  height: 170px;
+}
+.box11 {
+  background-color: rgb(223, 161, 161);
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+.box12 {
+  background-color: rgb(192, 37, 37);
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+}
+
+.box13 {
+  background-color: rgb(206, 90, 90);
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+}
+.group {
+float: right;
+}
+.wrap{
+    float: left;
+}
+.box14 {
+  background-color: #ccc;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+.box15 {
+  background-color: rgb(192, 37, 37);
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+}
+.box16 {
+  background-color: rgb(206, 90, 90);
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+}
+.wrap2{
+    float: left;
+}
+.group2{
+    margin: 10px auto;
+}
